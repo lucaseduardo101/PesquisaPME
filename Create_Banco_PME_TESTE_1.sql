@@ -18,7 +18,7 @@ create table ENTREVISTA
 );
 
 create table DOMICILIO (
-	NumeroDeSerie int not null,
+ 	NumeroDeSerie int not null,
 	NumeroDeControle int not null,
 	Painel char not null,
 	GrupoRotacional int not null,
@@ -34,12 +34,33 @@ create table PESSOA(
 	mesDeNascimento int,
 	AnoDeNascimento int,
 	idade int,
+	condicaoNoDomicilio int,
+	condicaoNaFamilia int,
+	numeroDaFamilia int,
+	corOuRaça int,
+	pesoCor1 varchar[7],
+	pecExp1 varchar[7],
+	sabeLerEscrever int,
+	frequentaEscola int,
+	cursoSeriado int,
+	qualCursoFrequenta int,
+	qualSerieFrequenta int,
+	anteriormenteFrequentouEscola int,
+	qualCursoGrauElevado int,
+	cursoAnteriorSeriado int,
+	concluiuComAprovacaoPrimeiraSerie int,
+	qualAultimaSerieAprovada int,
+	concluiuOcursoQueFrequentouAnteriormente int,
+	concluiuAlgumCursoProfissionalizante int,
+	frequentaCursoProfissional int, 
+	qualFoiONivelExigidoCursoProfissionalizante int,	
 	NumeroDeSerie int NOT NULL ,
 	NumeroDeControle int NOT NULL ,
 	Painel char NOT NULL,
 	GrupoRotacional int NOT NULL, 	
 	FOREIGN KEY (NumeroDeSerie, NumeroDeControle, Painel, GrupoRotacional ) REFERENCES domicilio (NumeroDeSerie, NumeroDeControle, Painel, GrupoRotacional )
 );
+
 drop table DOMICILIO_Entrevista cascade;
 create table DOMICILIO_ENTREVISTA (
 	NumeroDeSerie int not null,
@@ -49,6 +70,8 @@ create table DOMICILIO_ENTREVISTA (
 	mes int not null,
 	ano int not null,
 	tipo int not null,
+	totalDeMoradores int,
+	totalDemoradores10Mais int,
 	FOREIGN KEY (NumeroDeSerie, NumeroDeControle, Painel, GrupoRotacional ) REFERENCES DOMICILIO (NumeroDeSerie, NumeroDeControle, Painel, GrupoRotacional ),
 	FOREIGN KEY (mes, ano,tipo) REFERENCES ENTREVISTA (mes, ano,tipo) 
 );
