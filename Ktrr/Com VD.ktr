@@ -215,8 +215,8 @@
     </ConcatFields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>710</xloc>
-      <yloc>269</yloc>
+      <xloc>713</xloc>
+      <yloc>143</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -332,8 +332,8 @@
     </ConcatFields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>591</xloc>
-      <yloc>270</yloc>
+      <xloc>615</xloc>
+      <yloc>141</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -2797,8 +2797,8 @@
         <storage_type/>
       </meta>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>480</xloc>
-      <yloc>267</yloc>
+      <xloc>506</xloc>
+      <yloc>146</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -4963,8 +4963,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>338</xloc>
-      <yloc>267</yloc>
+      <xloc>389</xloc>
+      <yloc>148</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -5757,8 +5757,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>827</xloc>
-      <yloc>268</yloc>
+      <xloc>809</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -5801,7 +5801,7 @@
     <encoding/>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>E&#x3a;&#x5c;Lucas&#x5c;Dados PME&#x5c;Txt&#x5c;2006</name>
+      <name>E&#x3a;&#x5c;Lucas&#x5c;Dados PME&#x5c;Txt&#x5c;2005</name>
       <filemask>.&#x2a;&#x5c;.TXT</filemask>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -8650,8 +8650,8 @@
     <sizeFieldName/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>179</xloc>
-      <yloc>266</yloc>
+      <xloc>266</xloc>
+      <yloc>140</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
